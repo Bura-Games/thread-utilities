@@ -1,0 +1,14 @@
+gitSourceBranch = "main"
+title = "ThreadUtilities"
+autoSectionPath = "src"
+
+[docusaurus]
+tagline = "Utilities for threads."
+
+[home]
+enabled = true
+includeReadme = false
+
+# [[home.features]]
+# title = "Immutability"
+# description = "Completely immutable data."
