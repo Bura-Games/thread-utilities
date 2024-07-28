@@ -1,6 +1,6 @@
 [package]
 name = "howmanysmall/thread-utilities" # TODO: Convert to bura-games organization.
-version = "1.0.0"
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 description = "Utilities related to threads."
