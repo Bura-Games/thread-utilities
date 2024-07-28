@@ -4,6 +4,7 @@
 local FastDefer = require(script.FastDefer)
 local FastDelay = require(script.FastDelay)
 local FastSpawn = require(script.FastSpawn)
+local NoYield = require(script.NoYield)
 local SafeThreadCancel = require(script.SafeThreadCancel)
 
 --[=[
@@ -15,6 +16,7 @@ local ThreadUtilities = table.freeze({
 	FastDefer = FastDefer;
 	FastDelay = FastDelay;
 	FastSpawn = FastSpawn;
+	NoYield = NoYield;
 	SafeThreadCancel = SafeThreadCancel;
 })
 
