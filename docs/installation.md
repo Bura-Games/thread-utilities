@@ -6,11 +6,10 @@ sidebar_position: 2
 
 ## Method #1 - RepoToRoblox
 
-Using our RepoToRoblox plugin is the easiest way to install in Studio.
+Using the RepoToRoblox plugin is the easiest way to install in Studio.
 
-1. Make sure you have set your GitHub authentication token in the plugin settings.
-2. In the RepoToRoblox widget, enter `bura-games` as the owner and `thread-utilities` as the repository.
-3. Click the Clone Repository button.
+1. In the RepoToRoblox widget, enter `bura-games` as the owner and `thread-utilities` as the repository.
+2. Click the Clone Repository button.
 
 ## Method 2 - Wally
 
