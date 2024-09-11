@@ -36,6 +36,7 @@ local function FastDefer<Arguments...>(callback: (Arguments...) -> (), ...: Argu
 		coroutine.resume(thread)
 	end
 
+	-- TODO: This might be able to throw?
 	return task.defer(thread, callback, thread, ...)
 end
 

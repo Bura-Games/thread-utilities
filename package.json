@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/thread-utilities",
-  "version": "1.0.2-ts.0",
+  "version": "1.0.3-ts.0",
   "main": "src/init.lua",
   "types": "src/index.d.ts",
   "repository": "https://github.com/Bura-Games/thread-utilities.git",

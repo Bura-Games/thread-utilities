@@ -7,6 +7,6 @@ license = "MIT"
 name = "howmanysmall/thread-utilities"                                                     # TODO: Convert to bura-games organization.
 realm = "shared"
 registry = "https://github.com/UpliftGames/wally-index"
-version = "1.0.2"
+version = "1.0.3"
 
 [dependencies]

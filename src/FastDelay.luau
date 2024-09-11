@@ -39,7 +39,7 @@ local function FastDelay<Arguments...>(delay: number, callback: (Arguments...) -
 
 	local length = select("#", ...)
 	if length == 0 then
-		return task.delay(delay, thread, callback, thread, ...)
+		return task.delay(delay, thread, callback, thread)
 	end
 
 	local arguments = {select(1, ...)}
