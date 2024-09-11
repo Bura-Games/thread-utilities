@@ -5,5 +5,7 @@
 		"evaera.vscode-rojo",
 		"kampfkarren.selene-vscode",
 		"filiptibell.wally-utilities",
+		"roblox-ts.vscode-roblox-ts",
+		"dbaeumer.vscode-eslint",
 	],
 }
