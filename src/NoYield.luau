@@ -33,6 +33,16 @@ end
 	end)) -- Throws an error!
 	```
 
+	```ts
+	print(NoYield(() => $tuple("This", "doesn't", "yield"))) // This doesn't yield;
+	print(
+		NoYield(() => {
+			task.wait();
+			return "Errors!!!";
+		}),
+	); // Throws an error!
+	```
+
 	@function NoYield
 	@within ThreadUtilities
 

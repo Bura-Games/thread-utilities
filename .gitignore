@@ -11,3 +11,7 @@ build
 roblox.yml
 
 *.code-workspace
+/node_modules
+/out
+/include
+*.tsbuildinfo

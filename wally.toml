@@ -1,25 +1,12 @@
 [package]
-name = "howmanysmall/thread-utilities" # TODO: Convert to bura-games organization.
-version = "1.0.1"
-registry = "https://github.com/UpliftGames/wally-index"
-realm = "shared"
+authors = ["HowManySmall"]
 description = "Utilities related to threads."
+exclude = ["**"]
+include = ["src", "src/**", "wally.toml", "wally.lock", "default.project.json", "LICENSE"]
 license = "MIT"
-exclude = [
-	".gitignore",
-	".luaurc",
-	".vscode",
-	".lune",
-	"build",
-	"docs",
-	"moonwave.toml",
-	"rokit.toml",
-	"selene.toml",
-	"sourcemap.json",
-	"stylua.toml",
-	"ThreadUtilities.code-workspace",
-	"testez-companion.toml",
-	"testez.yml",
-]
+name = "howmanysmall/thread-utilities"                                                     # TODO: Convert to bura-games organization.
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+version = "1.0.2"
 
 [dependencies]
