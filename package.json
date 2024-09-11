@@ -1,13 +1,12 @@
 {
   "name": "@rbxts/thread-utilities",
-  "version": "1.0.0",
-	"main": "src/init.lua",
-	"types": "src/index.d.ts",
+  "version": "1.0.2-ts.0",
+  "main": "src/init.lua",
+  "types": "src/index.d.ts",
   "repository": "https://github.com/Bura-Games/thread-utilities.git",
   "author": "HowManySmall",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "files": [
     "src",
     "!**/*.tsbuildinfo"
@@ -21,12 +20,12 @@
     "@rbxts/types": "^1.0.805",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-perfectionist": "^2.11.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-roblox-ts": "^0.0.36",
     "eslint-plugin-unicorn": "^55.0.0",
-    "eslint": "^8.57.0",
     "prettier": "^3.3.3",
     "roblox-ts": "^2.3.0",
     "typescript": "^5.6.2"
